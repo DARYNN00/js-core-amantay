@@ -1,8 +1,1 @@
-# Lab 4 - JavaScript Core
-
-## How to run tests
-1. Clone the repository to your local machine.
-2. Install dependencies by running:
-   ```bash
-   npm install
-
+In my work, closures are explicitly used in the memoize and counter functions. When the memoize(fn) function executes, it creates a local variable cache via new Map() and returns an inner anonymous function. This returned function retains access to the cache variable even after the outer function has finished execution. As a result, each subsequent function call accesses the cached memory without re-running heavy computations. Similarly, in the counter factory, the internal count variable is held in memory because the methods of the returned object (inc, dec, value) reference it from their lexical environment. This provides reliable data encapsulation, making the counter protected from external modifications.
