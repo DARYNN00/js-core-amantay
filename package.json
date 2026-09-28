@@ -1,0 +1,24 @@
+{
+  "name": "js-core-amantay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DARYNN00/js-core-amantay.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/DARYNN00/js-core-amantay/issues"
+  },
+  "homepage": "https://github.com/DARYNN00/js-core-amantay#readme",
+  "devDependencies": {
+    "vitest": "^5.0.2"
+  }
+}
